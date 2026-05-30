@@ -4,9 +4,9 @@ let score = undefined
 
 let valueInNumber = Number(score)
 
-console.log(typeof(valueInNumber));
+// console.log(typeof(valueInNumber));
 
-console.log(valueInNumber);
+// console.log(valueInNumber);
 
 //"33" => 33
 //"33abs" => NaN
@@ -14,3 +14,21 @@ console.log(valueInNumber);
 
 
 //***********************operations****************************/
+
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)
+// console.log(2**3)
+// console.log(2/2)
+// console.log(2%2)
+
+
+//adding two strings
+
+// let str1 = "Good "
+// let str2 = "Morning"
+// let str3 = str1 + str2
+// console.log(str3)
+
