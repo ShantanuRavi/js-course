@@ -51,11 +51,11 @@
 // console.log(str.charAt(4))
 // console.log(str.indexOf('h'))
 
-let str = new String("Shantanu")
-// let newStr1 = str.substring(0,3)    //NOTE: -VE INDEXING DOES NOT WORK IN substring()
-// let newStr2 = str.slice(-5,-1)
-console.log(str.substring(0,4))
-console.log(str.slice(-5,-1))
+// let str = new String("Shantanu")
+// // let newStr1 = str.substring(0,3)    //NOTE: -VE INDEXING DOES NOT WORK IN substring()
+// // let newStr2 = str.slice(-5,-1)
+// console.log(str.substring(0,4))
+// console.log(str.slice(-5,-1))
 
 // let str = "  Shantanu  "
 // console.log(str)
@@ -66,10 +66,13 @@ console.log(str.slice(-5,-1))
 // console.log(result)
 
 // let text = "Please visit Microsoft!";
-// let newText = text.replace("Microsoft", "W3Schools");
-// console.log(newText)
-// console.log(newText.includes('j'))
+// console.log(text.replace("Microsoft", "W3Schools"))
+// console.log(text.includes('j'))
 
 
 // let text = "Please visit Microsoft!";
-// console.log(text.split("i"))
+// console.log(text.split(" "))
+
+
+// let text = "The rain in SPAIN stays mainly in the plain";
+// console.log(text.match("ain"));
