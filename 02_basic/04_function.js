@@ -56,12 +56,36 @@
 // console.log(calculateCartPrice(12,23,34,45,67))
 
 
-const user = {
-    username:"abc123",
-    price:999
-}
+// const user = {
+//     username:"abc123",
+//     price:999
+// }
 
-function handleObj(anyObj){
-    console.log(`Username is ${anyObj.username} and price is ${anyObj.price}`)
-}
-handleObj(user)
+// function handleObj(anyObj){
+//     console.log(`Username is ${anyObj.username} and price is ${anyObj.price}`)
+// }
+// handleObj(user)
+
+// function display(user){
+//     console.log(user.name)
+// }
+// display({name:"Raj",age:23})
+
+// function createuser (user,Age){
+//     return {
+//         name:user,
+//         age:Age
+//     }
+// }
+// const user = createuser("Ravi",23)
+// console.log(user)
+
+// const user = {
+//     name : "Ravi",
+//     age : 23,
+//     greet : function(){
+//         console.log("Hello")
+//     }
+// }
+// user.greet()
+
