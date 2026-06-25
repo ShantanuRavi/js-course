@@ -14,7 +14,7 @@ body{
   box-sizing: border-box;
   text-align: center;
   width: 450px;
-  height: 400px;
+  height: 450px;
   border: 1px solid white;
   border-radius: 15px;
   margin-top: 30px;
@@ -28,6 +28,38 @@ body{
 }
 .guessfield{
   width: 100px;
-  height: 20px;
+  height: 25px;
   font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 20px;
+}
+#subt{
+  border: 0px solid white;
+  border-radius: 5px;
+  height: 35px;
+  width: 80px;
+  font-size: 15px;
+  background-color:rgb(27, 16, 13);
+  color: white;
+}
+#subt:hover{
+  background-color:rgb(190, 185, 124);
+  color: black;
+  transition: 0.15s;
+}
+#subt:active{
+  opacity: 0.08;
+  transition-duration: 0.05s;
+}
+h3{
+  color: rgb(190, 185, 124);
+}
+#nextgame:hover{
+ color:white;
+ text-decoration: underline;
+}
+#nextgame:active{
+  color: black;
 }
